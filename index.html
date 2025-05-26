@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Tristan van Veen</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <nav class="navbar">
+          <div class="navbar_container">
+            <a href="/" id="navbar_logo" class="logo">Tristan van Veen</a>
+            <div class="navbar_toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+              <li class="navbar_item">
+                <a href="#profile" class="navbar_links">About</a>
+              </li>
+              <li class="navbar_item">
+                <a href="#experience" class="navbar_links">Experience</a>
+              </li>
+              <li class="navbar_item">
+                <a href="#projects" class="navbar_links">Projects</a>
+              </li>
+              <li class="navbar_item">
+                <a href="#contact" class="navbar_links">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section id="profile">
+          <div class="main_container">
+            <div class="profile-item section_pic">
+              <img
+                src="./images/profile_pic_round.jpg"
+                loading="lazy"
+                alt="Tristan van Veen"
+              />
+            </div>
+            <div class="section_text_container">
+              <div class="profile-item section_text" id="animatedText">
+                Hello, I'm Tristan. FrontEnd Developer
+              </div>
+              <div class="profile-item btn-container">
+                <button
+                  class="btn btn-color-2"
+                  onclick="window.open('./assets/cv-tristanvanveen.jpg')"
+                >
+                  Download CV
+                </button>
+                <button
+                  class="btn btn-color-1"
+                  onclick="location.href='./#contact'"
+                >
+                  Contact Info
+                </button>
+              </div>
+              <div class="socials_container">
+                <img
+                  src="./assets/linkedin.png"
+                  alt="My LinkedIn profile"
+                  loading="lazy"
+                  class="profile-item icon"
+                  onclick="location.href='https://www.linkedin.com/in/tristan-van-veen-6ab4211b9/'"
+                />
+
+                <img
+                  src="./assets/github.png"
+                  alt="My GitHub profile"
+                  loading="lazy"
+                  class="profile-item icon"
+                  onclick="location.href='https://github.com/Tristanvanv'"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="about">
+          <div class="about-item about-container">
+            <div class="sub-container">
+              <div class="sub-text-container">About Me</div>
+            </div>
+            <div class="text-container">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                libero autem saepe tempora explicabo natus error dignissimos
+                laborum, soluta cumque totam impedit corporis ea iure officiis.
+                Minus error delectus recusandae!
+              </p>
+            </div>
+          </div>
+          <div class="my-stack">
+            <div class="text-container-stack">
+              <p class="about-item desktop-title">FrontEnd</p>
+              <p class="about-item desktop-title">Languages</p>
+              <p class="about-item desktop-title">Tools</p>
+            </div>
+            <div class="icon-columns">
+              <div class="about-item mobile-title">FrontEnd</div>
+              <div class="about-item icon-containers">
+                <div class="about-items">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                    loading="lazy"
+                    alt="JavaScript"
+                  />
+                </div>
+                <div class="about-items">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                    loading="lazy"
+                    alt="TypeScript"
+                  />
+                </div>
+                <div class="about-items">
+                  <img src="./assets/GSAP.svg" alt="GSAP" />
+                </div>
+                <div class="about-items">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                    loading="lazy"
+                    alt="HTML"
+                  />
+                </div>
+                <div class="about-items">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                    loading="lazy"
+                    alt="CSS"
+                  />
+                </div>
+                <div class="about-items">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                    loading="lazy"
+                    alt="Bootstrap"
+                  />
+                </div>
+              </div>
+              <div class="about-item mobile-title">Languages</div>
+              <div class="about-item icon-containers">
+                <div class="about-items">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                    loading="lazy"
+                    alt="Python"
+                  />
+                </div>
+                <div class="about-items">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                    loading="lazy"
+                    alt="Java"
+                  />
+                </div>
+                <div class="about-items">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+                    loading="lazy"
+                    alt="Csharp"
+                  />
+                </div>
+                <div class="about-items">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg"
+                    loading="lazy"
+                    alt="JSON"
+                  />
+                </div>
+              </div>
+              <div class="about-item mobile-title">Tools</div>
+              <div class="about-item icon-containers">
+                <div class="about-items">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                    loading="lazy"
+                    alt="Git"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="projects">
+          <div class="projects-item pr-text-container">
+            <div class="pr-sub-container">
+              <div class="pr-text">My Projects</div>
+            </div>
+          </div>
+          <div class="projects-item device-wrapper horizontal-slider">
+            <button class="btn-pr prev-btn">
+              <i class="bi bi-arrow-left-circle"></i>
+            </button>
+
+            <div class="macbook">
+              <div class="screen-content">
+                <div class="pr-slider">
+                  <img
+                    src="./assets/pr-privatefitness-frame.png"
+                    loading="lazy"
+                    alt="Website Private Fitness"
+                  />
+                </div>
+                <div class="pr-slider"><img src="" alt="" loading="lazy"/></div>
+                <div class="pr-slider"><img src="" alt="" loading="lazy" /></div>
+              </div>
+            </div>
+            <button class="btn-pr next-btn">
+              <i class="bi bi-arrow-right-circle"></i>
+            </button>
+          </div>
+          <div class="projects-item mobile-nav-btns">
+            <button class="media-btn media-pr">
+              <i class="bi bi-arrow-left-circle"></i>
+            </button>
+            <button class="media-btn media-pr">
+              <i class="bi bi-arrow-right-circle"></i>
+            </button>
+          </div>
+          <div class="projects-item keyboard"></div>
+        </section>
+      </div>
+      <!-- Smoothscroll div-->
+    </div>
+    <!-- Smoothscroll div-->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/EasePack.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/particles.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
