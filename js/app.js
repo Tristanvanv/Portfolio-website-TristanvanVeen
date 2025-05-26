@@ -21,6 +21,20 @@ window.addEventListener("load", () => {
     effects: true,
   });
 
+  document.querySelectorAll(".navbar_links").forEach((link) => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      const target = this.getAttribute("href");
+      if (target && document.querySelector(target)) {
+        smoother.scrollTo(target, true);
+      }
+
+      menu.classList.remove("is-active");
+      menuLinks.classList.remove("active");
+    });
+  });
+
   const profileItem = document.querySelectorAll(".profile-item");
   const aboutItem = document.querySelectorAll(".about-item");
   const projectItem = document.querySelectorAll(".projects-item");
