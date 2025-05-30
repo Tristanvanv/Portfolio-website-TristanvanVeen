@@ -343,6 +343,13 @@ section {
   display: block;
 }
 
+.pr-slider-mobile {
+  display: none;
+}
+.pr-slider-mobile img {
+  display: none;
+}
+
 .horizontal-slider {
   display: flex;
   align-items: center;
